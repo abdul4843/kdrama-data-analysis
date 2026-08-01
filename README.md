@@ -67,3 +67,19 @@ This project performs a complete data science workflow on a real-world Kaggle da
 
 1. Clone this repository
 2. Install dependencies:
+   ```
+   pip install pandas numpy matplotlib sqlalchemy pymysql python-dotenv
+   ```
+3. Create a `.env` file with your MySQL credentials:
+   ```
+   DB_USER=your_username
+   DB_PASSWORD=your_password
+   DB_HOST=localhost
+   DB_NAME=your_database_name
+   ```
+4. Run the notebook cells in order
+
+---
+*This project is part of a personal data science learning journey, building portfolio experience in Python, SQL, and data visualization.*
+
+
